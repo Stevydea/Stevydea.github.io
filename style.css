@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(249, 232, 252) ;
+}
+
+.profil {
+    display: flex;
+    align-items: flex-start;
+}
+.image-with-text img {
+    margin-right: 15px;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tanggal {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+h3{
+    background-color: rgb(246, 212, 238);
+}
+
+a {
+    color: blue;
+    text-decoration: none; }
+
+a:hover {
+    color: green; /* Warna saat link dihover */
+}
+
+h4 {
+    margin: 10 ; }
+
+
+
+p, br {
+    margin: 0; 
+    padding: 0; 
+}
